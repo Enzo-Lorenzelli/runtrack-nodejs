@@ -1,0 +1,13 @@
+{
+  "name": "jour2",
+  "version": "1.0.0",
+  "description": "ok",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "type": "module"
+  },
+  "author": "me",
+  "license": "ISC"
+}

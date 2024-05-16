@@ -1,0 +1,4 @@
+db.category.updateOne(
+    { "name": "Électronique" }, // Critère de recherche pour trouver la catégorie "Électronique"
+    { $set: { "name": "Vêtement pour bébé" } } // Modification à apporter
+)

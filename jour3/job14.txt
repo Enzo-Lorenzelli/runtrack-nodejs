@@ -1,0 +1,5 @@
+var categoryId = ObjectId("664474c0c44af1c88d0f1470");
+
+var category = db.category.findOne({ "_id": categoryId });
+
+printjson(category);

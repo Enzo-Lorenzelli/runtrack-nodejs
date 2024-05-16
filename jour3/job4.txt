@@ -1,0 +1,14 @@
+db.product.insertMany([
+    {
+        "name": "Pantalon noir",
+        "description": "Un pantalon noir",
+        "price": 14.99,
+        "quantity": 12
+    },
+    {
+        "name": "chaussettes",
+        "description": "chaussettes cool !",
+        "price": 6,
+        "quantity": 6
+    }
+])

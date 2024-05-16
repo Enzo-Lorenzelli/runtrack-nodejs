@@ -1,0 +1,4 @@
+db.product.find({
+    "price": { $gt: 5 }, // Prix supérieur à 5 euros
+    "quantity": { $lt: 100 } // Stock inférieur à 100
+})
